@@ -7,20 +7,32 @@ $break-desktop-small: 940px;
 $break-desktop: 1200px;
 $break-desktop-large: 1400px;
 
-.container {
+.body-container {
     max-width: 1300px;
     margin: 0 auto;
     position: relative;
 }
 
-.site-header {
-    
+@media (max-width: $break-desktop-large) {
+    .body-container {
+        
+    }    
 }
 
-.site-main {
-
+@media (max-width: $break-desktop) {
+    .body-container {
+        
+    } 
 }
 
-.site-footer {
+@media (max-width: $break-desktop-small) {
+    .body-container {
+        
+    } 
+}
 
+@media (max-width: $break-tablet) {
+    .body-container {
+        
+    } 
 }
