@@ -1,8 +1,9 @@
-# My Static Site
+# my-static-site
 
 ### Requirments:
 
 - [Node](https://nodejs.org/)
+- [Livereload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) browser plugin
 
 ### Installation:
 
@@ -22,5 +23,3 @@ Run `gulp watch` to start webserver, watch files and livereload.
 - Greensock
 - Connect server
 - Livereload
-
-Thanks to the guys at [Super Interactive](https://github.com/superinteractive) for helping me!

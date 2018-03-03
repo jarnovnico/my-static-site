@@ -1,5 +1,9 @@
 // General imports
 
+// name of fonts here
+// @font-face { font-family: Auxilia; src: url('../fonts/namehere.otf'); }
+// @font-face { font-family: Auxilia-Bold; src: url('../fonts/namehere.otf'); }
+
 // Variables
 
 // Mixins
@@ -7,6 +11,11 @@
 // Base
 @import 'base/base';
 @import 'base/grid-settings';
+
+// Views
+@import 'views/site-header';
+@import 'views/site-main';
+@import 'views/site-footer';
 
 // Libraries
 @import 'libs/normalize';
